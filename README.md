@@ -1,13 +1,19 @@
-# homebrew-v2ray
-Homebrew tap for [v2ray-core](https://github.com/v2ray/v2ray-core).
 
-# Install
+# homebrew-kofj
+Homebrew tap of [v2ray-kofj](https://github.com/v2ray/v2ray-kofj). This is a collection of tools developed and maintained by @kofj.
+
+[TOC]
+## Install
 ```shell
 brew tap kofj/v2ray
-brew install v2ray-core
 ```
 
-# Use v2ray-core
+## Tools
+
+```bash
+brew install v2ray-core
+```
+### Use v2ray-core
 &emsp;&emsp;First, you should configure `/usr/local/etc/config.json`.
 
 &emsp;&emsp;Then, to have launchd start v2ray-core now and restart at login:
